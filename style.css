@@ -107,22 +107,22 @@ footer{
     }
    
 #your-message-space{
-    height: 80px;
+    height: 250px;
 }
   .form-message{
       font-size: 25px;
   }
 
-  #subject{
+/*#subject{
     height: 250px;
-  }
+  }*/
 
-  form{
+form{
       margin: 0;
       padding: 0;
   }
 
-  .about-sub{
+.about-sub{
      color: teal;
   }
 
