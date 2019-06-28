@@ -93,19 +93,22 @@ footer{
 .input-field label {
     font-size: 27px;
   }
-
-  input[type=submit] {
+.submit-button{
     background-color:teal;
     color: ivory;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
-  
-  input[type=submit]:hover {
-    background-color: #ffdb58;
-  }
 
+.submit-button[type=submit]:hover{
+    background-color: #ffdb58;
+
+    }
+   
+#your-message-space{
+    height: 80px;
+}
   .form-message{
       font-size: 25px;
   }
@@ -122,9 +125,7 @@ footer{
   .about-sub{
      color: teal;
   }
-.large{
-    text-decoration: none;
-}
+
 #actual-table{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -150,6 +151,6 @@ footer{
 
 .cost{
     color: #ffdb58;
-    font-size: 35px;
+    font-size: 31px;
     
 }
