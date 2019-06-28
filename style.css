@@ -1,0 +1,155 @@
+.parallax-container{
+    height: 670px;
+  }
+.logo{
+    height: 60px;
+    
+} 
+
+.container-about{
+    /*background-color: #ffca28;*/
+    background-color:#ef9a9a;
+    padding: 20px;
+    color: ivory;
+    font-size: 20px;
+    
+}
+.container-projects{
+    background-color: #624152;
+    color: #bbb2bd;
+    padding: 20px 0;
+    margin: 0;
+   
+
+
+}
+.container-pricing{
+    background-color: teal;
+    font-size: 18px;
+    color:ivory;
+    padding: 20px 0px;
+    margin: 0;
+   
+
+   
+}
+.container-contact{
+    background-color:ivory;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+   
+}
+
+.page-footer{
+    text-align: center;
+    color: #bbb2bd;
+    
+}
+.logo-img{
+    height: 3em;
+}
+h1{
+    color: #bbb2bd;
+    border-bottom-style: solid;
+    border-bottom-color: #ffdb58;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0
+}
+
+#contact-head{
+    color: teal;
+}
+
+footer{
+    font-family: 'Playfair Display', serif;
+}
+
+.large{
+    font-size: 2em;
+}
+
+.section-heading{
+    margin: 0;
+    /*color: #bbb2bd;*/
+    color: ivory;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+
+}
+
+.row{
+    margin-top: 20px;
+}
+
+
+.heading-container{
+    text-align: center;
+}
+.input-field label {
+    font-size: 27px;
+  }
+
+  input[type=submit] {
+    background-color:teal;
+    color: ivory;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffdb58;
+  }
+
+  .form-message{
+      font-size: 25px;
+  }
+
+  #subject{
+    height: 250px;
+  }
+
+  form{
+      margin: 0;
+      padding: 0;
+  }
+
+  .about-sub{
+     color: teal;
+  }
+.large{
+    text-decoration: none;
+}
+#actual-table{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.highlight{
+    background-color: #bbb2bd;
+}
+
+.package{
+    font-size: 30px;
+    color:#624152;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #ffdb58;
+}
+
+.about-sub{
+    margin-top: 60px;
+   
+    
+}
+
+.cost{
+    color: #ffdb58;
+    font-size: 35px;
+    
+}
