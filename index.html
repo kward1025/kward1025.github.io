@@ -19,32 +19,35 @@
         <div class="parallax"><img src="pensive.png">
         </div>
     </div>
-    <nav>
+    <div id="main-menu">
+    <nav data-target="#main-menu">
         <div class="nav-wrapper">
 
 
             <a href="#" class="brand-logo center"><img src="" class="logo-img"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-            <ul class="left hide-on-med-and-down">
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+            <ul class="left hide-on-med-and-down main-nav" >
+                <li class="active"><a href="index.html">About</a></li>
+                <li><a href="#projects" >Projects</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-    </nav>
+    </nav></div>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">About</a></li>
+        <li><a href="index.html">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#pricing">Pricing</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 
     <div class="container-about">
         <div class="heading-container">
-            <h1 class="section-heading"><span class="large">O</span>nward <span class="large">W</span>eb <span
-                    class="large">D</span>evelopment<span</h1> </div> <h4 class="about-sub"> Mission</h4>
+            <h1 class="section-heading"><span class="onward"><span class="large">O</span>nward</span><span
+                    class="web"><span class="large">W</span>eb</span>
+                <span class="large">D</span>evelopment</h1> </div> 
+                <h4 class="about-sub"> Mission</h4>
                     <p> To create affordable, professional, and creative websites that assist actors and creative atists
                         with
                         becoming "bookable".</p>
@@ -115,7 +118,7 @@
                 <h1 class="section-heading"><span class="large">P</span>ackages</h1>
             </div>
 
-            <div class="container">
+            <div class="container get-money-table">
                 <table class="highlight" id="actual-table">
                     <thead>
                         <tr>
@@ -163,12 +166,13 @@
 
                 </table>
                 <p>* Free 20 min consultation.</p>
-                <p> *Each additional page, $75. </p>
+                <p>* Each additional page, $75. </p>
                 <p>* 50% of payment due before work begins.</p>
-                <p>*3 page site includes 2 rounds of revision.</p>
-                <p>*5 page site includes 3 rounds of revision.</p>
-                <p>*2 week (or less) turnaround time.</p>
-                <p>*Preferred payment method, CashApp.</p>
+                <p>* 3 page site includes 2 rounds of revision.</p>
+                <p>* 5 page site includes 3 rounds of revision.</p>
+                <p>* 2 week (or less) turnaround time.</p>
+                <p>* $40/hr for ongoing maintainence. <!--or "do it yourself" maintainence training.--></p>
+                <p>* Preferred payment method, CashApp.</p>
             </div>
 
 
@@ -179,7 +183,8 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <form class="col s12" action="https://formcarry.com/s/qLtclOE20IA" method="POST" accept-charset="UTF-8">
+                        <form class="col s12" action="https://formcarry.com/s/qLtclOE20IA" method="POST"
+                            accept-charset="UTF-8">
                             <div class="row">
                                 <div class="input-field col s6">
                                     <input placeholder="Lauryn" name="first_name" type="text" class="validate">
@@ -201,10 +206,11 @@
                                     </div>
                                 </div>
                                 <label class="form-message" for="Message">How Can I Help You?</label>
-                                <textarea name="subject" id ="your-message-space" placeholder="Leave A Message"></textarea>
+                                <textarea name="subject" id="your-message-space"
+                                    placeholder="Leave A Message"></textarea>
                                 <button class="submit-button" type="submit" name="action">Submit
                                     <i class="material-icons right">send</i>
-                                  </button>
+                                </button>
 
                             </div>
                         </form>

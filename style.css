@@ -5,13 +5,19 @@
     height: 60px;
     
 } 
-
+nav{
+    z-index:2000;
+}
+html, body{
+    height:100%;
+}
 .container-about{
     /*background-color: #ffca28;*/
     background-color:#ef9a9a;
     padding: 20px;
     color: ivory;
     font-size: 20px;
+    padding-top:80px;
     
 }
 .container-projects{
@@ -19,7 +25,8 @@
     color: #bbb2bd;
     padding: 20px 0;
     margin: 0;
-   
+    padding-top:80px;
+
 
 
 }
@@ -29,7 +36,8 @@
     color:ivory;
     padding: 20px 0px;
     margin: 0;
-   
+    padding-top:80px;
+
 
    
 }
@@ -38,7 +46,8 @@
     color: white;
     padding: 20px 0;
     margin: 0;
-   
+    padding-top:80px;
+
 }
 
 .page-footer{
@@ -139,8 +148,8 @@ form{
     font-size: 30px;
     color:#624152;
     font-weight: bold;
-    text-decoration: underline;
-    text-decoration-color: #ffdb58;
+    /*text-decoration: underline;
+    text-decoration-color: #ffdb58;*/
 }
 
 .about-sub{
@@ -150,7 +159,7 @@ form{
 }
 
 .cost{
-    color: #ffdb58;
+    color: teal;
     font-size: 31px;
     
 }
@@ -161,8 +170,28 @@ form{
 @media only screen and (max-width: 812px) {
     /* ADD CSS RULES FOR IPHONE */
 /* EXAMPLE */
-    .container-pricing {
+    .get-money-table {
         margin: 0;
+        width:100%;
+    }
+    .get-money-table p {
+        padding-left: 5%;
+    }
+
+    #actual-table {
+        margin-top: 80px;
+        margin-bottom: 19px;
+    }
+
+    .onward{
+        display: inline-block;
+    }
+
+    .web{
+        /* display: inline-block; */
+        /* margin-top: -4000px; */
+        position: relative;
+        top: 16px;
     }
 
 
