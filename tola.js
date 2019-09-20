@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   $(function () {
+    $('.carousel').carousel();
     $("form").submit(function (e) {
       e.preventDefault();
       var href = $(this).attr("action");
