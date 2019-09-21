@@ -1,10 +1,10 @@
 .main-name{
     font-family: 'Petit Formal Script', cursive;
-    font-size: 113px;
+    font-size: 155px;
     /* padding-left: 15%; */
     position: absolute;
-    top: 79px;
-    left: 40%;
+    top: 58px;
+    left: 31%;
     bottom: -11px;
 
 }
@@ -96,6 +96,21 @@ font-size: 77px;
 line-height: 150px;
 padding-left:20px;
 
+
+}
+
+/*this moves the icon section to the left or right, not a single icon but the entire block*/
+footer .row .col.s6 {
+    width: 31%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.alsoSocial{
+    color: white;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-left: 50px;
 }
 
 .input-field>label{
@@ -110,8 +125,8 @@ padding-left:20px;
     font-family: 'Crimson Pro', sans-serif;
     font-family: 'Merriweather', sans-serif;
     position: absolute;
-    left: 75%;
-    top: 40%;
+    left: 73%;
+    top: 35%;
     font-size: 27px;
 
 }
@@ -244,7 +259,12 @@ padding-left:20px;
 }
 .resume-table{
     margin-left: 30px;
-    
-    
-    
+}
+/*resume*/
+td, th {
+    padding: 15px 80px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
 }
