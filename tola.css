@@ -63,7 +63,9 @@
 
 .menu {
     height:156px;
+    background-color: #f48fb1;
 }
+
 
 
 .heading-container{
@@ -124,9 +126,9 @@ footer .row .col.s6 {
     font-style: italic;
     font-family: 'Crimson Pro', sans-serif;
     font-family: 'Merriweather', sans-serif;
-    position: absolute;
-    left: 73%;
-    top: 35%;
+    position: relative;
+    left: 60%;
+    top: 50px;
     font-size: 27px;
 
 }
@@ -267,4 +269,26 @@ td, th {
     text-align: left;
     vertical-align: middle;
     border-radius: 2px;
+}
+
+@media screen and (max-width: 480px) {
+    .main-name{
+        font-size: 40pt;
+        position: absolute;
+        left: 24%;
+    }
+
+    #description{
+        font-size:15px;
+        left:25%;
+        top:11%;
+        position: absolute;
+    }
+    .socialIcon{
+        font-size:40px;
+    }
+
+    .representation{
+        text-align: center;
+    }
 }
