@@ -271,6 +271,12 @@ td, th {
     border-radius: 2px;
 }
 
+.homepic{
+    margin-top:200px;
+    width:60rem;
+    margin-bottom:-30px
+}
+
 @media screen and (max-width: 480px) {
     .main-name{
         font-size: 40pt;
@@ -281,7 +287,7 @@ td, th {
     #description{
         font-size:15px;
         left:25%;
-        top:11%;
+        top:14%;
         position: absolute;
     }
     .socialIcon{
@@ -290,5 +296,11 @@ td, th {
 
     .representation{
         text-align: center;
+    }
+
+    .homepic {
+        margin-top: 100px;
+        width: 100%;
+        margin-bottom: 100px;
     }
 }
