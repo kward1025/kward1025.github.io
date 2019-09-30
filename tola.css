@@ -312,12 +312,16 @@ td, th {
             width:115%;
             
         }
+
+        .page-footer{
+            width:100%;
+        }
         #description{
             font-size:20px;
-            left:46%;
+            left:36%;
         }
         .main-name{
-            font-size:130px;
+            font-size:114px;
             left:11%;
         }
         .homepic{
