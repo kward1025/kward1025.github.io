@@ -4,13 +4,16 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   $(function () {
+    // see the library options at the project's
+    // website https://kenwheeler.github.io/slick/
     $('.carousel2').slick({
       dots: true,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 2000,
-      variableWidth: true,
-      variableHeight: true
+      adaptiveHeight: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
     });
     $('.sidenav').sidenav();
     $("form").submit(function (e) {

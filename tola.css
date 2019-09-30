@@ -276,6 +276,9 @@ td, th {
 }
 .carousel2{
     margin-top:50px;
+    width: 500px;
+    margin: auto;
+    padding: 0px;
 }
 
 .messageArea{
@@ -294,6 +297,35 @@ td, th {
     text-align: right;
 }
 
+.carousel2{
+    padding-bottom:40px;
+    padding-top:40px;
+}
+
+/* Iphone X landscape */
+
+@media only screen 
+    and (min-device-width: 812px)
+    and (max-device-height: 375px)
+    and (orientation: landscape){
+        .menu{
+            width:115%;
+            
+        }
+        #description{
+            font-size:20px;
+            left:46%;
+        }
+        .main-name{
+            font-size:130px;
+            left:11%;
+        }
+        .homepic{
+        margin-top: 100px;
+        width: 400px;
+        margin-bottom: 100px;
+        }
+    }
 
 /* Ipad Pro  Landscape */
 /* ----------- iPad Pro ----------- */
@@ -416,5 +448,10 @@ td, th {
     }
     .reel-word{
         margin-right:0px;
+    }
+
+    .carousel2{
+        margin:0px;
+        width:100%
     }
 }
