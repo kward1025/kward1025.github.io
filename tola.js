@@ -4,7 +4,14 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   $(function () {
-    $('.carousel').carousel();
+    $('.carousel2').slick({
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      variableWidth: true,
+      variableHeight: true
+    });
     $('.sidenav').sidenav();
     $("form").submit(function (e) {
       e.preventDefault();

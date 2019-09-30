@@ -214,7 +214,6 @@ footer .row .col.s6 {
     font-family: 'Crimson Pro', serif;
     font-size: 45px;
     text-decoration: underline black;
-    margin-right: 70px;
     text-align: center;
     
 
@@ -227,7 +226,6 @@ footer .row .col.s6 {
     font-family: 'Crimson Pro', serif;
     font-size: 45px;
     text-decoration: underline black;
-    margin-right: 70px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -276,7 +274,109 @@ td, th {
     width:60rem;
     margin-bottom:-30px
 }
+.carousel2{
+    margin-top:50px;
+}
 
+.messageArea{
+    border: 1px solid gray;
+    border-radius:20px;
+    overflow: auto;
+    outline: none;
+    padding:20px;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.iconHolder{
+    text-align: right;
+}
+
+
+/* Ipad Pro  Landscape */
+/* ----------- iPad Pro ----------- */
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .main-name{
+        font-size:80px;
+        left:36%;
+    }
+
+    nav ul a{
+        font-size:.6rem;
+    }
+
+    #description{
+        font-size:22px;
+        left:50%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+      .main-name{
+          left:34%;
+          font-size:120px;
+      }
+
+      #description{
+          left:53%;
+      }
+
+}
+
+
+/* Ipad Landscape */
+@media only screen 
+  and (max-device-height: 768px) 
+  and (min-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    nav ul a {
+        font-size:.55rem;
+    }
+    .main-name{
+        font-size:100px;
+    }
+    #description{
+        left:60%;
+        font-size:15px;
+    }
+}
+/* Ipad Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-height: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .main-name{
+        font-size:112px;
+        left:12%;
+    }
+    #description{
+        left:55%;
+        font-size:15px;
+    }
+    .socialIcon{
+        font-size:55px;
+    }
+    .my-reel{
+        padding:25px;
+    }
+}
+
+/* mobile phones */
 @media screen and (max-width: 480px) {
     .main-name{
         font-size: 40pt;
@@ -302,5 +402,19 @@ td, th {
         margin-top: 100px;
         width: 100%;
         margin-bottom: 100px;
+    }
+    .contact-word{
+        margin-bottom: 50px;
+    }
+
+    .socialIcon{
+        padding-left:0px;
+    }
+    .iconHolder{
+        text-align: center;
+        padding-right:10%;
+    }
+    .reel-word{
+        margin-right:0px;
     }
 }
