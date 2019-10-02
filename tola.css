@@ -302,20 +302,27 @@ td, th {
     padding-top:40px;
 }
 
+.collection .collection-item span{
+    padding-left:20px;
+}
 /* Iphone X landscape */
 
 @media only screen 
     and (min-device-width: 812px)
     and (max-device-height: 375px)
     and (orientation: landscape){
-        .menu{
+        .menu, .bio-container, .page-footer, .media-container, .resume-container, .resume-word{
             width:115%;
             
         }
-
-        .page-footer{
-            width:100%;
+        .bio-container{
+            padding:20px;
         }
+
+        .media-container{
+            padding:20px;
+        }
+
         #description{
             font-size:20px;
             left:36%;
@@ -326,7 +333,7 @@ td, th {
         }
         .homepic{
         margin-top: 100px;
-        width: 400px;
+        width: 100%;
         margin-bottom: 100px;
         }
     }
@@ -352,6 +359,11 @@ td, th {
         font-size:22px;
         left:50%;
     }
+
+    .homepic{
+        width:100%;
+    }
+    
 }
 
 /* Landscape */
@@ -368,6 +380,9 @@ td, th {
       #description{
           left:53%;
       }
+      .homepic{
+        width:100%;
+    }
 
 }
 
@@ -410,9 +425,159 @@ td, th {
     .my-reel{
         padding:25px;
     }
+
+    .homepic{
+        width:100%;
+    }
 }
 
-/* mobile phones */
+/* mobile phones horizontal */
+
+
+/* Pixel 2 XL landscape */
+@media screen and (width: 823px)
+and (max-height: 411px){
+    .page-footer, .menu, .bio-container, .resume-container, .resume-word{
+        width:128%;
+    }
+
+    .media-container{
+        width:128%;
+        padding:20px;
+    }
+    #description{
+        left: 36%;
+        font-size: 19px;
+    }
+
+    .main-name{
+        font-size: 108px;
+        left: 16%;
+    }
+
+    .homepic{
+        width:100%;
+    }
+
+    
+}
+
+/* Pixel 2 landscape */
+@media screen and (max-width:731px) 
+  and (max-height:411px){
+      .main-name{
+        top: 58px;
+        left: 18%;
+        font-size:100px;
+      }
+
+      #description{
+        left: 58%;
+        font-size:14px;
+      }
+
+      .socialIcon{
+          font-size:61px;
+      }
+      .resume-container{
+          width:100%;
+      }
+
+      .homepic{
+          width:100%;
+      }
+
+}
+
+
+/* Iphone 6/7/8 Landscape */
+@media screen and (width:667px)
+and (max-height:375px){
+    .page-footer, .menu, .bio-container, .resume-container, .resume-word{
+        width:128%;
+    }
+    .socialIcon{
+        padding-left:0px;
+    }
+
+    .main-name{
+        font-size:100px;
+        left:31%
+    }
+    #description{
+        left:56%;
+        font-size:16px;
+    }
+
+    .media-container{
+        width:128%;
+        padding:20px;
+    }
+}
+
+
+/* Iphone 6/7/8 Plus Landscape */
+@media screen and (width:736px)
+and (max-height:414px){
+    .page-footer, .menu, .bio-container, .media-container, .resume-container, .resume-word{
+        width:128%;
+    }
+    .socialIcon{
+        padding-left:0px;
+    }
+
+    .main-name{
+        font-size:109px;
+        left:28%
+    }
+    #description{
+        left:51%;
+        font-size:19px;
+
+    }
+
+    .media-container{
+        padding:20px;
+    }
+
+    .homepic{
+        width:100%;
+    }
+}
+
+/* Galaxy S5 Landscape */
+@media screen and (min-width:640px)
+and (max-height:360px){
+    .page-footer, .menu, .bio-container{
+        width:140%;
+    }
+    .socialIcon{
+        font-size:52px;
+        padding-left:0px;
+    }
+
+    .main-name{
+        font-size:109px;
+        left:28%
+    }
+    #description{
+        left: 61%;
+    font-size: 14px;
+    }
+
+    .media-container, .resume-container, .bio-container{
+        width:130%;
+        padding:20px;
+    }
+
+    .homepic{
+       width:100%;
+    }
+
+    
+}
+
+/* mobile phones vertical */
 @media screen and (max-width: 480px) {
     .main-name{
         font-size: 40pt;
